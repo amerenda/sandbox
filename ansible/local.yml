@@ -1,0 +1,10 @@
+#!/usr/bin/env ansible-playbook
+---
+- hosts: localhost
+  become: False
+  connection: local
+  gather_facts: False
+  tasks:
+
+  - name: example 
+    command: echo "example"
